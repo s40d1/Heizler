@@ -1,0 +1,118 @@
+{
+    "aliquot": 123, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "H:2 DS", 
+    "commit": "967bee5865da797e009bd496f5be2884294aef06", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -2672578630983061919, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 1, 
+            "teststr": "Ar40>5000.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": 2706307186091723936, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 10, 
+            "teststr": "Ar40>5000.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -8252778357748063314, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 50, 
+            "teststr": "age>100.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -3678437543325592225, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 50, 
+            "teststr": "Ar39.bs_corrected<1.0"
+        }
+    ], 
+    "detectors": {
+        "AX": {
+            "deflection": 165.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 10.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 320.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_co2.py", 
+    "identifier": "65296", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-285", 
+    "irradiation_level": "H", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Sanidine", 
+    "measurement": "jan_co2_whiff_120_60_large.py", 
+    "project": "Heizler", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Heizler", 
+    "sample": "GM-ACR-DS1", 
+    "spec_sha": "8adcd007a278bafdb04c3752611277e8170578e7", 
+    "timestamp": "2016-08-28T08:56:39.985900", 
+    "tripped_conditional": {
+        "context": "{'age': 1661.3462835098737}", 
+        "hash_id": -8252778357748063314, 
+        "teststr": "age>100.0"
+    }, 
+    "username": "", 
+    "uuid": "76732c59-39f4-4c24-965a-8811adeb71b8"
+}
