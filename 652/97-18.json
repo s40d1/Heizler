@@ -1,0 +1,73 @@
+{
+    "aliquot": 18, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "H:3 DS", 
+    "commit": "967bee5865da797e009bd496f5be2884294aef06", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 165.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 10.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 320.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_co2.py", 
+    "identifier": "65297", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-285", 
+    "irradiation_level": "H", 
+    "irradiation_position": 3, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Sanidine", 
+    "measurement": "jan_unknown120_60.py", 
+    "project": "Heizler", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Heizler", 
+    "sample": "CP-92 12-1 9115ft", 
+    "spec_sha": "8adcd007a278bafdb04c3752611277e8170578e7", 
+    "timestamp": "2016-08-28T23:18:24.293642", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "ff20d6ff-a480-47ac-8edc-ab4b9207e73f"
+}
