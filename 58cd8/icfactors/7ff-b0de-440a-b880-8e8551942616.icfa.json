@@ -1,38 +1,50 @@
 {
     "AX": {
         "error": 1e-20,
-        "fit": "default",
-        "references": [],
+        "fit": "mass_spec_reduced",
+        "references": "",
+        "reviewed": false,
+        "standard_ratio": null,
         "value": 1.0
     },
     "CDD": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0008394,
+        "fit": "mass_spec_reduced",
+        "references": "",
+        "reviewed": false,
+        "standard_ratio": null,
+        "value": 1.008226
     },
     "H1": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
+        "error": 0.0,
+        "fit": "mass_spec_reduced",
+        "references": "",
+        "reviewed": false,
+        "standard_ratio": null,
         "value": 1.0
     },
     "H2": {
         "error": 1e-20,
-        "fit": "default",
-        "references": [],
+        "fit": "mass_spec_reduced",
+        "references": "",
+        "reviewed": false,
+        "standard_ratio": null,
         "value": 1.0
     },
     "L1": {
         "error": 1e-20,
-        "fit": "default",
-        "references": [],
+        "fit": "mass_spec_reduced",
+        "references": "",
+        "reviewed": false,
+        "standard_ratio": null,
         "value": 1.0
     },
     "L2": {
         "error": 1e-20,
-        "fit": "default",
-        "references": [],
+        "fit": "mass_spec_reduced",
+        "references": "",
+        "reviewed": false,
+        "standard_ratio": null,
         "value": 1.0
     }
 }
